@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Jonas Productions</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">Jonas<span>Productions</span></a>
+  <nav>
+    <a href="backline.html">Backline</a>
+    <a href="audio.html">Audio</a>
+    <a href="clients.html">Clients</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html" class="nav-cta">Contact</a>
+  </nav>
+  <button class="hamburger" aria-label="Menu">&#9776;</button>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <p class="section-eyebrow">Get In Touch</p>
+    <h1>Contact</h1>
+    <p>Jonas Productions will provide excellent service for any type of event. All equipment rentals are staffed by our expertly trained technicians — ensuring superb service before, during, and after your production.</p>
+  </div>
+</div>
+
+<section class="container">
+  <div class="contact-grid">
+
+    <div class="contact-info">
+      <h2>Reach Our Team</h2>
+      <p>Call our Indianapolis office anytime and speak with our friendly and knowledgeable experts regarding your special event needs.</p>
+
+      <!-- CONTACT_INFO_START -->
+      <div class="contact-card">
+        <h4>Indianapolis Office</h4>
+        <p>8606 N 700 West<br>Fountaintown, IN 46130</p>
+        <a href="tel:3178357826" class="big-phone">317-835-7826</a>
+        <p style="margin-top:0.5rem;">Fax: 317-835-2207</p>
+      </div>
+
+      <div class="contact-card">
+        <h4>Email</h4>
+        <p><a href="mailto:info@jonasproductions.com">info@jonasproductions.com</a></p>
+      </div>
+      <!-- CONTACT_INFO_END -->
+    </div>
+
+    <div class="contact-form-wrap">
+      <h2>Send a Message</h2>
+      <form class="contact-form" action="mailto:info@jonasproductions.com" method="post" enctype="text/plain">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Full name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="event">Event Type</label>
+          <select id="event" name="event">
+            <option value="">Select event type...</option>
+            <option>Corporate Event</option>
+            <option>Concert / Tour</option>
+            <option>Festival</option>
+            <option>Political / Government</option>
+            <option>Religious Event</option>
+            <option>TV / Film Production</option>
+            <option>Broadway / Theater</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us about your event — date, location, equipment needs..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; text-align:center;">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="logo">Jonas<em>Productions</em></span>
+      <p>Full-service audio &amp; backline rental — Indianapolis, Indiana.</p>
+      <p><a href="mailto:info@jonasproductions.com">info@jonasproductions.com</a></p>
+    </div>
+    <div class="footer-nav">
+      <h4>Pages</h4>
+      <a href="backline.html">Backline Rentals</a>
+      <a href="audio.html">Audio Equipment</a>
+      <a href="clients.html">Clients</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-contact">
+      <h4>Indianapolis Office</h4>
+      <p>8606 N 700 West<br>Fountaintown, IN 46130</p>
+      <p>Phone: <a href="tel:3178357826">317-835-7826</a></p>
+      <p>Fax: 317-835-2207</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 Jonas Productions, Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>
